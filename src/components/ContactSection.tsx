@@ -25,7 +25,7 @@ const ContactSection = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-10">
           <div className="flex items-center gap-2 text-muted-foreground">
             <Mail className="w-5 h-5 text-primary" />
-            <span>mba1401@outlook.es</span>
+            <a href="mailto:mba1401@outlook.es" className="hover:text-primary transition-colors">mba1401@outlook.es</a>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <MapPin className="w-5 h-5 text-primary" />
