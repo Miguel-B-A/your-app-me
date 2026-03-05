@@ -2,10 +2,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const skills = [
-  { category: "Languages", items: ["JavaScript", "TypeScript", "Python", "Java", "C++"] },
-  { category: "Frontend", items: ["React", "HTML/CSS", "Tailwind CSS", "Next.js"] },
-  { category: "Backend", items: ["Node.js", "Express", "REST APIs", "SQL"] },
-  { category: "Tools", items: ["Git", "Docker", "VS Code", "Linux"] },
+  { category: "Languages", items: ["Java", "C", "Python", "C++", "SQL", "JavaScript"] },
+  { category: "Web Development", items: ["HTML", "CSS", "React", "Angular"] },
+  { category: "Databases", items: ["MySQL", "PostgreSQL", "MongoDB"] },
+  { category: "Tools & Systems", items: ["Git", "Linux", "Windows Server", "Power BI", "Docker"] },
+  { category: "Methodologies", items: ["Agile", "UML", "ER Diagrams", "Software Testing & QA"] },
+  { category: "Networking", items: ["TCP/IP", "DNS", "HTTP", "Network Security"] },
 ];
 
 const SkillsSection = () => {

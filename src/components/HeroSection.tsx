@@ -19,7 +19,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
           
-          <span className="gradient-text">Miguel Barrera</span>
+          <span className="gradient-text">Miguel Barrera Abad</span>
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">
           
-          Software Developer
+          Computer Science Student
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -35,9 +35,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">
           
-          I'm a passionate software developer focused on building clean, 
-          efficient, and user-friendly applications. Currently seeking 
-          internship and job opportunities.
+          Computer Science student at CEU San Pablo with a strong passion for 
+          software development, problem-solving, and building clean, efficient 
+          applications. Currently seeking internship and job opportunities.
         </motion.p>
 
         <motion.div
@@ -50,13 +50,10 @@ const HeroSection = () => {
             Get in Touch
           </a>
           <div className="flex items-center gap-3">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
-              <Github className="w-5 h-5" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+            <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="mailto:your@email.com" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+            <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
               <Mail className="w-5 h-5" />
             </a>
           </div>

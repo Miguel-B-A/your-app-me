@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-6 md:px-12 flex items-center justify-between h-16">
         <a href="#" className="font-display font-bold text-xl tracking-tight">
-          YN<span className="text-primary">.</span>
+          MB<span className="text-primary">.</span>
         </a>
 
         {/* Desktop */}
