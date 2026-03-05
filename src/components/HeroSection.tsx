@@ -33,11 +33,11 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">
-          
-          Computer Science student at CEU San Pablo with a strong passion for 
-          software development, problem-solving, and building clean, efficient 
-          applications. Currently seeking internship and job opportunities.
+          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications.
+
+
+
+
         </motion.p>
 
         <motion.div
