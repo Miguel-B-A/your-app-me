@@ -2,26 +2,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
 
-const projects = [
+const projects: { title: string; description: string; tech: string[]; github?: string; live?: string }[] = [
   {
-    title: "Project One",
-    description: "A full-stack web application built with React and Node.js. Features user authentication, real-time updates, and a clean responsive UI.",
-    tech: ["React", "Node.js", "PostgreSQL"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "Project Two",
-    description: "A command-line tool that automates repetitive development tasks, improving team productivity by reducing setup time.",
-    tech: ["Python", "CLI", "APIs"],
-    github: "https://github.com",
-  },
-  {
-    title: "Project Three",
-    description: "A mobile-responsive dashboard for visualizing data with interactive charts, filters, and export capabilities.",
-    tech: ["TypeScript", "React", "D3.js"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "UniGO",
+    description: "UniGO es una plataforma completa de carpooling universitario que conecta estudiantes para compartir viajes de manera segura, económica y sostenible.",
+    tech: ["FastAPI", "Next.js", "PostgreSQL", "TypeScript", "Python"],
+    github: "https://github.com/Miguel-B-A/UNIGO",
   },
 ];
 
