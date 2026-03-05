@@ -9,32 +9,32 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-muted-foreground text-lg mb-4 font-medium tracking-wide"
-        >
+          className="text-muted-foreground text-lg mb-4 font-medium tracking-wide">
+          
           Hi, my name is
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4"
-        >
-          <span className="gradient-text">Your Name</span>
+          className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
+          
+          <span className="gradient-text">Miguel Barrera</span>
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6"
-        >
+          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">
+          
           Software Developer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed"
-        >
+          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">
+          
           I'm a passionate software developer focused on building clean, 
           efficient, and user-friendly applications. Currently seeking 
           internship and job opportunities.
@@ -44,8 +44,8 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex items-center gap-5"
-        >
+          className="flex items-center gap-5">
+          
           <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity">
             Get in Touch
           </a>
@@ -67,14 +67,14 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-      >
+        className="absolute bottom-10 left-1/2 -translate-x-1/2">
+        
         <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
           <ArrowDown className="w-5 h-5 animate-bounce" />
         </a>
       </motion.div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
