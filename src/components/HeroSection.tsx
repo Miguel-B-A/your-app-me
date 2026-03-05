@@ -25,15 +25,15 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">
-          
-          Computer Science Student
+          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">Computer Science Student & Finance Enthusiast
+
+
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications.
+          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications. Also self-teaching myself IB/Quantitative trading fundamentals by coding my own financial models and data tools.
 
 
 
