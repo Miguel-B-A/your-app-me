@@ -25,16 +25,16 @@ const ContactSection = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-10">
           <div className="flex items-center gap-2 text-muted-foreground">
             <Mail className="w-5 h-5 text-primary" />
-            <span>your@email.com</span>
+            <span>mba1401@outlook.es</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <MapPin className="w-5 h-5 text-primary" />
-            <span>Your City, Country</span>
+            <span>Madrid, Spain</span>
           </div>
         </div>
 
         <a
-          href="mailto:your@email.com"
+          href="mailto:mba1401@outlook.es"
           className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity text-lg"
         >
           <Send className="w-5 h-5" />

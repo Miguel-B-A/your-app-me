@@ -19,18 +19,19 @@ const AboutSection = () => {
         
         <div className="space-y-5 text-muted-foreground leading-relaxed text-lg">
           <p>
-            I'm a Computer Science student with a strong passion for software development 
-            and problem-solving. I enjoy turning complex problems into simple, beautiful, 
-            and intuitive solutions.
+            I'm a Computer Science student at CEU San Pablo in Madrid, expected to graduate 
+            in May 2027. I hold an International Baccalaureate from British Montessori School 
+            Mataespesa with a Science and Technology track.
           </p>
           <p>
-            My journey in tech started with curiosity about how things work, and it has 
-            evolved into a deep interest in full-stack development, algorithms, and 
-            building products that make a difference.
+            I have hands-on experience as a QA Analyst Intern at Grupo Diusframi, where I 
+            developed and executed test plans, performed debugging, and ensured software quality. 
+            I'm skilled in problem-solving, teamwork, and communicating complex concepts clearly.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new technologies, contributing 
-            to open-source projects, or learning about system design and software architecture.
+            I'm bilingual in English (C2 Cambridge Proficiency, Grade A) and Spanish (native), 
+            which allows me to work effectively in international environments. I'm always eager 
+            to learn new technologies and take on challenging projects.
           </p>
         </div>
       </motion.div>
