@@ -5,7 +5,7 @@ import { ExternalLink, Github } from "lucide-react";
 const projects: { title: string; description: string; tech: string[]; github?: string; live?: string }[] = [
   {
     title: "UniGO",
-    description: "UniGO es una plataforma completa de carpooling universitario que conecta estudiantes para compartir viajes de manera segura, económica y sostenible.",
+    description: "A comprehensive university carpooling platform that connects students to share rides in a safe, affordable, and sustainable way.",
     tech: ["FastAPI", "Next.js", "PostgreSQL", "TypeScript", "Python"],
     github: "https://github.com/Miguel-B-A/UNIGO",
   },
