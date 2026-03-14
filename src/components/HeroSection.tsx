@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { BlurFade } from "@/components/ui/blur-fade";
 
 const HeroSection = () => {
   return (
