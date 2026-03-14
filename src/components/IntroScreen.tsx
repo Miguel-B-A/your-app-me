@@ -26,7 +26,7 @@ const IntroScreen = ({ onComplete }: IntroScreenProps) => {
           transition={{ duration: 0.6, ease: "easeInOut" }}
           className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
         >
-          <BlurFade delay={0.25} inView>
+          <BlurFade delay={0.4} inView>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               Hello World 👋
             </h1>
