@@ -12,16 +12,16 @@ const AboutSection = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="max-w-3xl mx-auto"
-      >
+        className="max-w-3xl mx-auto">
+        
         <h2 className="text-3xl md:text-4xl font-bold font-display mb-2">About Me</h2>
         <div className="w-16 h-1 bg-primary rounded-full mb-8" />
         
         <div className="space-y-5 text-muted-foreground leading-relaxed text-lg">
-          <p>
-            I'm a Computer Science student at CEU San Pablo in Madrid, expected to graduate 
-            in May 2027. I hold an International Baccalaureate from British Montessori School 
-            Mataespesa with a Science and Technology track.
+          <p>I'm a Computer Science student at CEU San Pablo in Madrid. I hold an International Baccalaureate from British Montessori School Mataespesa with a Science and Technology track.
+
+
+
           </p>
           <p>
             I have hands-on experience as a QA Analyst Intern at Grupo Diusframi, where I 
@@ -35,8 +35,8 @@ const AboutSection = () => {
           </p>
         </div>
       </motion.div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
