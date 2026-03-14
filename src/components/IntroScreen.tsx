@@ -12,7 +12,7 @@ const IntroScreen = ({ onComplete }: IntroScreenProps) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 2500);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -26,12 +26,12 @@ const IntroScreen = ({ onComplete }: IntroScreenProps) => {
           transition={{ duration: 0.6, ease: "easeInOut" }}
           className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
         >
-          <BlurFade delay={0.25} inView>
+          <BlurFade delay={0.4} inView>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               Hello World 👋
             </h1>
           </BlurFade>
-          <BlurFade delay={0.5} inView>
+          <BlurFade delay={0.8} inView>
             <p className="text-xl md:text-2xl text-white/70">
               Nice to meet you
             </p>
