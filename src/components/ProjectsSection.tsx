@@ -5,13 +5,13 @@ import { ExternalLink, Github } from "lucide-react";
 const projects: { title: string; description: string; tech: string[]; github?: string; live?: string }[] = [
   {
     title: "UniGO",
-    description: "UniGO es una plataforma completa de carpooling universitario que conecta estudiantes para compartir viajes de manera segura, económica y sostenible.",
+    description: "A comprehensive university carpooling platform that connects students to share rides in a safe, affordable, and sustainable way.",
     tech: ["FastAPI", "Next.js", "PostgreSQL", "TypeScript", "Python"],
     github: "https://github.com/Miguel-B-A/UNIGO",
   },
   {
     title: "Black-Scholes Option Pricing",
-    description: "Aplicación interactiva de pricing de opciones financieras usando el modelo Black-Scholes. Incluye cálculo en tiempo real de Call/Put, Greeks completas (Δ, Γ, Θ, V, ρ), indicador de moneyness y visualizaciones con heatmaps y gráficos P&L.",
+    description: "Interactive financial options pricing app using the Black-Scholes model. Features real-time Call/Put pricing, full Greeks calculation (Δ, Γ, Θ, V, ρ), moneyness indicator, and visualizations with heatmaps and P&L charts.",
     tech: ["Python", "Streamlit", "NumPy", "SciPy", "Plotly"],
     github: "https://github.com/Miguel-B-A/BlackScholes_Project",
   },
