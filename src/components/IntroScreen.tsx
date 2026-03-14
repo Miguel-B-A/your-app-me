@@ -31,7 +31,7 @@ const IntroScreen = ({ onComplete }: IntroScreenProps) => {
               Hello World 👋
             </h1>
           </BlurFade>
-          <BlurFade delay={0.5} inView>
+          <BlurFade delay={0.8} inView>
             <p className="text-xl md:text-2xl text-white/70">
               Nice to meet you
             </p>
