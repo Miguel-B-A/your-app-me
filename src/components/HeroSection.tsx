@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { BlurFade } from "@/components/ui/blur-fade";
 
 const HeroSection = () => {
   return (
@@ -13,51 +14,37 @@ const HeroSection = () => {
           
           Hi, my name is
         </motion.p>
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
-          
-          <span className="gradient-text">Miguel Barrera Abad</span>
-        </motion.h1>
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">Computer Science Student & Finance Enthusiast
+        <BlurFade delay={0.25} inView>
+          <h1 className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
+            <span className="gradient-text">Miguel Barrera Abad</span>
+          </h1>
+        </BlurFade>
+        <BlurFade delay={0.5} inView>
+          <h2 className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">
+            Computer Science Student & Finance Enthusiast
+          </h2>
+        </BlurFade>
+        <BlurFade delay={0.5} inView>
+          <p className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">
+            Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications. Also self-teaching myself IB/Quantitative trading fundamentals by coding my own financial models and data tools.
+          </p>
+        </BlurFade>
 
-
-        </motion.h2>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications. Also self-teaching myself IB/Quantitative trading fundamentals by coding my own financial models and data tools.
-
-
-
-
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex items-center gap-5">
-          
-          <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity">
-            Get in Touch
-          </a>
-          <div className="flex items-center gap-3">
-            <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
-              <Linkedin className="w-5 h-5" />
+        <BlurFade delay={0.75} inView>
+          <div className="flex items-center gap-5">
+            <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity">
+              Get in Touch
             </a>
-            <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
-              <Mail className="w-5 h-5" />
-            </a>
+            <div className="flex items-center gap-3">
+              <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+                <Mail className="w-5 h-5" />
+              </a>
+            </div>
           </div>
-        </motion.div>
+        </BlurFade>
       </div>
 
       <motion.div
