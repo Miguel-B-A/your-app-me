@@ -9,6 +9,12 @@ const projects: { title: string; description: string; tech: string[]; github?: s
     tech: ["FastAPI", "Next.js", "PostgreSQL", "TypeScript", "Python"],
     github: "https://github.com/Miguel-B-A/UNIGO",
   },
+  {
+    title: "Black-Scholes Option Pricing",
+    description: "Aplicación interactiva de pricing de opciones financieras usando el modelo Black-Scholes. Incluye cálculo en tiempo real de Call/Put, Greeks completas (Δ, Γ, Θ, V, ρ), indicador de moneyness y visualizaciones con heatmaps y gráficos P&L.",
+    tech: ["Python", "Streamlit", "NumPy", "SciPy", "Plotly"],
+    github: "https://github.com/Miguel-B-A/BlackScholes_Project",
+  },
 ];
 
 const ProjectsSection = () => {
