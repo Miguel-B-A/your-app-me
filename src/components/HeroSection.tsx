@@ -14,32 +14,21 @@ const HeroSection = () => {
           
           Hi, my name is
         </motion.p>
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
-          
-          <span className="gradient-text">Miguel Barrera Abad</span>
-        </motion.h1>
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">Computer Science Student & Finance Enthusiast
-
-
-        </motion.h2>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications. Also self-teaching myself IB/Quantitative trading fundamentals by coding my own financial models and data tools.
-
-
-
-
-        </motion.p>
+        <BlurFade delay={0.25} inView>
+          <h1 className="text-5xl md:text-7xl font-bold font-display tracking-tight mb-4">
+            <span className="gradient-text">Miguel Barrera Abad</span>
+          </h1>
+        </BlurFade>
+        <BlurFade delay={0.5} inView>
+          <h2 className="text-2xl md:text-4xl font-display font-medium text-muted-foreground mb-6">
+            Computer Science Student & Finance Enthusiast
+          </h2>
+        </BlurFade>
+        <BlurFade delay={0.5} inView>
+          <p className="text-muted-foreground text-lg max-w-xl mb-10 leading-relaxed">
+            Computer Science student at CEU San Pablo with a strong passion for software development, problem-solving, and building clean, efficient applications. Also self-teaching myself IB/Quantitative trading fundamentals by coding my own financial models and data tools.
+          </p>
+        </BlurFade>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
