@@ -50,7 +50,7 @@ const HeroSection = () => {
             Get in Touch
           </a>
           <div className="flex items-center gap-3">
-            <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+            <a href="https://www.linkedin.com/in/mba04" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
