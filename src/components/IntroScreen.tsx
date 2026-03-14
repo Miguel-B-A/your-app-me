@@ -12,7 +12,7 @@ const IntroScreen = ({ onComplete }: IntroScreenProps) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 2500);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
