@@ -30,24 +30,21 @@ const HeroSection = () => {
           </p>
         </BlurFade>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex items-center gap-5">
-          
-          <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity">
-            Get in Touch
-          </a>
-          <div className="flex items-center gap-3">
-            <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
-              <Linkedin className="w-5 h-5" />
+        <BlurFade delay={0.75} inView>
+          <div className="flex items-center gap-5">
+            <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity">
+              Get in Touch
             </a>
-            <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
-              <Mail className="w-5 h-5" />
-            </a>
+            <div className="flex items-center gap-3">
+              <a href="https://linkedin.com/in/miguel-barrera-abad" target="_blank" rel="noreferrer" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="mailto:mba1401@outlook.es" className="p-2.5 rounded-lg border border-border hover:bg-secondary transition-colors">
+                <Mail className="w-5 h-5" />
+              </a>
+            </div>
           </div>
-        </motion.div>
+        </BlurFade>
       </div>
 
       <motion.div
