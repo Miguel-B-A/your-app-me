@@ -14,6 +14,7 @@ const projects: { title: string; description: string; tech: string[]; github?: s
     description: "Interactive financial options pricing app using the Black-Scholes model. Features real-time Call/Put pricing, full Greeks calculation (Δ, Γ, Θ, V, ρ), moneyness indicator, and visualizations with heatmaps and P&L charts.",
     tech: ["Python", "Streamlit", "NumPy", "SciPy", "Plotly"],
     github: "https://github.com/Miguel-B-A/BlackScholes_Project",
+    live: "https://blackscholes-project-miguel-b-a.streamlit.app/",
   },
   {
     title: "Bond Pricer & Duration-Convexity Calculator",
