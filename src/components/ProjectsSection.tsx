@@ -15,6 +15,13 @@ const projects: { title: string; description: string; tech: string[]; github?: s
     tech: ["Python", "Streamlit", "NumPy", "SciPy", "Plotly"],
     github: "https://github.com/Miguel-B-A/BlackScholes_Project",
   },
+  {
+    title: "Bond Pricer & Duration-Convexity Calculator",
+    description: "Interactive bond analytics tool featuring bond pricing, current yield, YTM, Macaulay & Modified Duration, Convexity, DV01, price vs. YTM curves, heatmaps, and sensitivity tables with ±200bps shock analysis.",
+    tech: ["Python", "Streamlit", "NumPy", "Plotly"],
+    github: "https://github.com/Miguel-B-A/Bond-Pricer-Duration-Convexity-Calculator",
+    live: "https://bond-pricer-duration-convexity-calculator.streamlit.app/",
+  },
 ];
 
 const ProjectsSection = () => {
