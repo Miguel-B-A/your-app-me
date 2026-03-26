@@ -18,10 +18,7 @@ const AboutSection = () => {
         <div className="w-16 h-1 bg-primary rounded-full mb-8" />
         
         <div className="space-y-5 text-muted-foreground leading-relaxed text-lg">
-          <p>I'm a Computer Science student at CEU San Pablo in Madrid. I hold an International Baccalaureate from British Montessori School Mataespesa with a Science and Technology track.
-
-
-
+          <p>I'm a Computer Science student at CEU San Pablo in Madrid. I hold an International Baccalaureate from British Montessori School Mataespesa with a Science and Technology track and minoring in Economics.
           </p>
           <p>
             I have hands-on experience as a QA Analyst Intern at Grupo Diusframi, where I 
