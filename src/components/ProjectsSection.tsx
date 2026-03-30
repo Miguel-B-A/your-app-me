@@ -23,6 +23,13 @@ const projects: { title: string; description: string; tech: string[]; github?: s
     github: "https://github.com/Miguel-B-A/Bond-Pricer-Duration-Convexity-Calculator",
     live: "https://bond-pricer-duration-convexity-calculator.streamlit.app/",
   },
+  {
+    title: "Premier League Match Predictor",
+    description: "Machine learning classification project that predicts football match outcomes (Home Win, Draw, Away Win) using historical Premier League data (1992–2022). Covers the full ML workflow: data exploration, cleaning, feature engineering, model training, and evaluation.",
+    tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Streamlit"],
+    github: "https://github.com/Miguel-B-A/ML_PremierLeague",
+    live: "https://premier-league-predictor-mba.streamlit.app/",
+  },
 ];
 
 const ProjectsSection = () => {
